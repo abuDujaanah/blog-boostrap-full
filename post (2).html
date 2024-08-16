@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<title>Laravel From Scratch Blog</title>
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="output.css">
+
+<body style="font-family: Open Sans, sans-serif">
+    <section class="px-6 py-8">
+        <nav class="md:items-center md:justify-between md:flex">
+            <div>
+                <a href="/">
+                    <img src="./images/logo.svg" alt="Laracast Logo" width="165px" height="16px">
+                </a>
+            </div>
+    
+            <div class="mt-8 lg:mt-3">
+                <a href="/" class="text-xs font-bold uppercase">Home Page</a>
+                
+                <primary-button></primary-button>
+                <a href="" class="px-3 py-3 ml-3 text-xs font-semibold text-white uppercase transition-colors duration-300 bg-blue-500 rounded-full hover:bg-blue-600">Subscribe For Updates</a>
+            </div>
+        </nav>   
+    
+        <main class="max-w-6xl mx-auto mt-6 space-y-5 lg:mt-20">
+            
+            <article class="max-w-4xl pt-10 mx-auto lg:grid lg:grid-cols-12 gap-x-10">  
+                <div class="col-span-4 text-center">
+                    <img src="./images/illustration-1.png" alt="" class="rounded-xl">
+
+                    <p class="block mt-4 text-xs text-gray-400">
+                        Published <time>1 day ago</time>
+                    </p>
+
+                    <div class="flex items-center justify-center mt-4 text-sm">
+                        
+                        <img src="./images/lary-avatar.svg" alt="Lary Avatar">
+                        
+                        <div class="ml-3 text-left">
+                            
+                            <h5 class="font-bold">Lary Laracore</h5> 
+                            
+                            <h6>Mascot at Laracast</h6>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="col-span-8">
+                    <div class="flex justify-between mb-6 -mt-10">
+                        <a href="" class="relative inline-flex items-center text-lg transition-colors duration-300 hover:text-blue-500">
+                            
+                            <svg 
+                                width="22" height="22" viewBox="0 0 22 22"
+                                class="mr-2"
+                                >
+                                
+                                <g fill="none" fill-rule="evenodd">
+                                    <path stroke="#000" stroke-opacity=".012" 
+                                    stroke-width=".5" 
+                                    d="M21 1v20.16H.84V1z">
+                                    </path>
+                                    <path class="fill-current"
+                                        d="M13.854 7.224l-3.847 3.856 3.847 3.856-1.184 1.184-5.04-5.04 5.04-5.04z"></path>
+                                </g>
+                            </svg>
+                            
+                            Back to Posts</a>
+
+                        <div class="space-x-2">
+                            <a href="#" 
+                            class="px-2 py-2 text-xs font-semibold text-blue-300 uppercase border border-blue-300 rounded-full" 
+                            style="font-size: 10px;">Techniques</a>
+                            <a href="#" 
+                            class="px-2 py-2 text-xs font-semibold text-red-300 uppercase border border-red-300 rounded-full" 
+                            style="font-size: 10px;">Updates</a>
+                        </div>
+                    </div>
+                    
+                    <h1 class="mb-16 text-4xl font-bold">This is a big title and it will look great on two or even three lines.  MooHoo!</h1>
+                    
+                    <div class="space-y-6 text-lg">
+                        <p>Qui cupidatat minim laborum voluptate id ipsum. Nulla reprehenderit amet esse labore eu sunt fugiat occaecat duis sunt proident magna. Aliqua commodo ipsum consectetur ad aliquip ullamco eu Lorem ullamco sit commodo deserunt. Eu pariatur proident eu eu consequat ad incididunt quis fugiat officia.</p>
+
+                        <p>Et labore duis consectetur occaecat veniam. Ullamco laboris est adipisicing ad sit cillum aute consectetur duis culpa officia est adipisicing culpa. Nisi incididunt sit incididunt velit culpa irure.</p>
+                        
+                        <p>Consectetur do adipisicing voluptate nisi anim. Cillum irure laborum commodo sunt elit sint fugiat enim qui. Do laborum duis fugiat fugiat est aute qui ipsum incididunt non.</p>
+                        
+                        <h2 class="text-lg font-bold">Sed quia consectetur</h2>
+                        
+                        <p>Quis cillum anim do tempor mollit est fugiat cupidatat laborum. Tempor reprehenderit consequat reprehenderit et. Aute magna nisi qui pariatur occaecat. Ex tempor do mollit enim reprehenderit exercitation officia dolor nisi duis tempor. Elit esse irure voluptate sunt tempor.</p>
+
+                        <p>Eu in aliquip ad commodo esse pariatur aliqua amet quis in. Ad do ex ad anim nulla sunt Lorem quis commodo id reprehenderit id cillum aliquip. Qui officia ex eu velit cillum cupidatat est minim qui nulla. Aute et et minim nostrud proident ea consectetur eiusmod eiusmod labore. Sint sunt pariatur in laboris eiusmod ullamco. Sit et ipsum nostrud amet. Voluptate voluptate in reprehenderit aliqua quis culpa ea minim anim esse officia magna.</p>
+
+                        <p>Elit aliquip sint ipsum consectetur. Ullamco velit commodo velit cupidatat consectetur magna labore commodo. Pariatur ullamco irure mollit in deserunt excepteur laborum reprehenderit commodo sunt labore. Nisi amet veniam do fugiat culpa do commodo amet mollit ullamco do eiusmod duis anim. Aliquip minim cupidatat enim minim sit do. In laboris dolor sit consequat consequat proident enim in reprehenderit duis irure laborum.</p>
+
+                        <p>Ad sint voluptate ipsum quis amet in fugiat anim voluptate ea pariatur. Ad commodo sit aliqua mollit commodo mollit enim magna nostrud nulla minim do fugiat. In cillum deserunt irure qui anim eiusmod minim velit ad magna nisi laboris pariatur. Enim adipisicing irure cillum cillum sit dolore pariatur elit do dolor excepteur. Sunt consectetur ad ut pariatur dolore et mollit. Cupidatat laborum non velit consectetur. Eu aliquip minim cillum veniam laborum ipsum id consequat est nulla sunt in.</p>
+                    </div>
+                    
+                </div>
+                
+            </article>
+            
+        </main> 
+    
+        <footer class="px-10 py-16 mt-16 text-center bg-gray-100 border border-black border-opacity-5 rounded-xl">
+            
+            <img src="./images/lary-newsletter-icon.png" alt="" class="mx-auto" style="width: 145px">
+            
+            <h5 class="text-3xl">Stay in touch with the latest posts</h5>
+
+            <p class="text-sm">Promise to keep the inbox clean. No bugs.</p>
+
+            <div class="mt-10">
+                <div class="relative inline-block mx-auto bg-gray-300 rounded-full">
+
+                    <form method="POST" action="" class="text-sm lg:flex">
+                        
+                        <div class="flex items-center lg:px-5 lg:py-3">
+                            
+                            <label for="email" class="hidden lg:tw-inline">
+                                <img src="./images/mailbox-icon.svg" alt="mailbox letter">
+                            </label>
+    
+                            <input id="email" type="text" placeholder="Your email address" 
+                            class="pl-4 lg:bg-transparent focus-within:outline-none">
+    
+                        </div>
+                        
+                        <button type="submit" class="px-8 py-3 mt-4 text-xs font-semibold text-white uppercase bg-blue-500 rounded-full lg:mt-0 lg:ml-3 hover:bg-blue-600">Subscribe</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
